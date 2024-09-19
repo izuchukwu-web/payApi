@@ -1,0 +1,202 @@
+:root {
+    --dark-pink: #ba4270;
+    --water-white: #fbfcfe;
+    --juan-blue: #36536b;
+    --mirage-blue: #1b262f;
+    --charm-pink: #da6d97;
+    --light-juan-blue: #6c8294;
+    --white: #fff;
+  }
+  
+  body {
+      background-color: #edf3f8;
+      position: relative;
+      overflow-x: hidden;
+      font-family: "Public Sans", sans-serif;
+    }
+  
+    #parent1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 1110px;
+      margin: 20px auto 0;
+    }
+
+
+    #Fdiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .together > a {
+      margin-left: 10px;
+      font-family: "Public Sans", sans-serif;
+      font-size: 15px;
+      text-decoration: none;
+      color: var(--light-juan-blue);
+      font-weight: bold;
+    }
+    
+    .together > a:hover {
+      color: var(--juan-blue);
+      cursor: pointer;
+    }
+  
+    #rightDemo {
+      background-color: #ba4270;
+      border-radius: 20px;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      position: relative;
+      font-family: "Public Sans", sans-serif;
+      font-size: 15px;
+    }
+    
+    #rightDemo:hover {
+      background-color:var(--charm-pink);
+      cursor: pointer;
+    }
+
+
+
+    
+    #circle {
+      position: absolute;
+      right: -108px;
+      top: -610px;
+      z-index: -1;
+    }
+
+    #parent5 {
+        position: relative;
+        overflow: hidden;
+        padding: 50px;
+      }
+      
+      #parent5 > img {
+        position: absolute;
+        right: -500px;
+        top: 0;
+        z-index: -1;
+      }
+      
+      #parent5 > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+
+        
+#parent8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(27, 38, 47);
+  padding: 50px;
+}
+
+#Fdivdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.together2 > a {
+  color: var(--water-white);
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.together2 > a:hover {
+  color: var(--light-juan-blue);
+  cursor: pointer;
+}
+
+  
+#rightDemo2 {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #ba4270;
+  color: white;
+  position: absolute;
+  right: px;
+}
+
+#rightDemo2:hover {
+  background-color: var(--charm-pink);
+  cursor: pointer;
+}
+
+#leftDemo2 {
+  border-radius: 20px;
+  background-color: #ba4270;
+  color: white;
+  padding: 7px;
+}
+
+#emailDemo2 {
+  display: flex;
+  position: relative;
+  justify-content: right;
+  align-items: center;
+  width: 300px;
+}
+
+#downPricing:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+#Fdive > a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.social >a> svg {
+  fill: var(--white);
+  margin-right: 15px;
+}
+
+.social >a> svg:hover {
+  fill: var(--dark-pink);
+}
+#email1 {
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+#email1:hover {
+  cursor: pointer;
+}
+
+#weEmpower{
+  font-size: 56px;
+  font-family: "DM Serif Display", serif;
+  width: 730px;margin-left: 265px;
+
+}
+#ourVision{
+  font-size: 32px;
+  font-family: "DM Serif Display", serif;
+}
+
+.ourVmail{
+
+}
+#ourVision{
+
+}
+.ourBusiness{
+
+}
+#atThecore{
+  
+}

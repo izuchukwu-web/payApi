@@ -1,0 +1,280 @@
+:root {
+  --dark-pink: #ba4270;
+  --water-white: #fbfcfe;
+  --juan-blue: #36536b;
+  --mirage-blue: #1b262f;
+  --charm-pink: #da6d97;
+  --light-juan-blue: #6c8294;
+  --white: #fff;
+}
+
+body {
+    background-color: #edf3f8;
+    position: relative;
+    overflow-x: hidden;
+    font-family: "Public Sans", sans-serif;
+  }
+
+  #parent1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    margin: 20px auto 0;
+  }
+  
+  #circle {
+    position: absolute;
+    right: -108px;
+    top: -610px;
+    z-index: -1;
+  }
+
+  #Fdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .together > a {
+    margin-left: 10px;
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--light-juan-blue);
+    font-weight: bold;
+  }
+  
+  .together > a:hover {
+    color: var(--juan-blue);
+    cursor: pointer;
+  }
+
+  #rightDemo {
+    background-color: #ba4270;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+  }
+  
+  #rightDemo:hover {
+    background-color:var(--charm-pink);
+    cursor: pointer;
+  }
+
+
+  
+#parent8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(27, 38, 47);
+  padding: 50px;
+}
+
+#Fdivdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.together2 > a {
+  color: var(--water-white);
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.together2 > a:hover {
+  color: var(--light-juan-blue);
+  cursor: pointer;
+}
+
+  
+#rightDemo2 {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #ba4270;
+  color: white;
+  position: absolute;
+  right: px;
+}
+
+#rightDemo2:hover {
+  background-color: var(--charm-pink);
+  cursor: pointer;
+}
+
+#leftDemo2 {
+  border-radius: 20px;
+  background-color: #ba4270;
+  color: white;
+  padding: 7px;
+}
+
+#emailDemo2 {
+  display: flex;
+  position: relative;
+  justify-content: right;
+  align-items: center;
+  width: 300px;
+}
+
+#downPricing:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+#Fdive > a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.social >a> svg {
+  fill: var(--white);
+  margin-right: 15px;
+}
+
+.social > svg:hover {
+  fill: var(--dark-pink);
+  cursor: pointer;
+}
+
+
+#readinpbut {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+#email1 {
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+#email1:hover {
+  cursor: pointer;
+}
+
+#rightDemo2 {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #ba4270;
+  color: white;
+  position: absolute;
+  right: px;
+}
+
+#rightDemo2:hover {
+  background-color: var(--charm-pink);
+  cursor: pointer;
+}
+
+
+#parentAll{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  gap: 20px;
+  padding: 10px 100px 20px;
+}
+
+ #planChildren>div{
+  display: grid;
+ grid-template-columns:30px 1fr ;
+ align-items: center;
+ } 
+ #planChildren{
+  border-block: 1px solid var(--light-juan-blue);
+  margin-bottom: 30px;
+ }
+ 
+
+ 
+ #buttonFreeplan{
+  border-radius: 20px;
+  border: solid;
+  padding: 10px 20px;
+ }
+
+ #buttonFreeplan:hover{
+  color: var(--water-white);
+  background-color: var(--mirage-blue);
+  cursor: pointer;
+}
+ 
+ #buttonBasic{
+  border-radius: 20px;
+  background-color: var(--water-white);
+  border: solid;
+  padding: 10px 20px;
+ }
+
+ #buttonBasic:hover{
+  color: var(--water-white);
+  background-color: var(--mirage-blue);
+  cursor: pointer;
+}
+ 
+ #buttonPremium{
+  border-radius: 20px;
+  border: solid;
+  padding: 10px 20px;
+  columns: var(--light-juan-blue);
+ }
+
+ #buttonPremium:hover{
+  color: var(--water-white);
+  background-color: var(--mirage-blue);
+  cursor: pointer;
+}
+
+.paragraph{
+  
+  width: 350px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+
+}
+
+#pricingHead{
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  margin-left: 170px;
+}
+#freeplanHead{
+  font-family: "DM Serif Display", serif;
+  font-size: 32px;
+  color: var(--dark-pink);
+}
+#basicplanHead{
+  font-family: "DM Serif Display", serif;
+  font-size: 32px;
+  color: var(--dark-pink);
+}
+#premiumplanHead{
+  font-family: "DM Serif Display", serif;
+  font-size: 32px;
+  color: var(--dark-pink);
+}
+
+.figurs{
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+}
+
+#p{
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+}

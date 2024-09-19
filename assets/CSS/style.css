@@ -1,0 +1,373 @@
+:root {
+  --dark-pink: #ba4270;
+  --water-white: #fbfcfe;
+  --juan-blue: #36536b;
+  --mirage-blue: #1b262f;
+  --charm-pink: #da6d97;
+  --light-juan-blue: #6c8294;
+  --white: #fff;
+}
+
+body {
+  background-color: #edf3f8;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Public Sans", sans-serif;
+}
+
+#parent1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1110px;
+  margin: 20px auto 0;
+}
+
+#circle {
+  position: absolute;
+  right: -108px;
+  top: -210px;
+  z-index: -1;
+}
+
+#Fdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.together > a {
+  margin-left: 10px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--light-juan-blue);
+  font-weight: bold;
+}
+
+.together > a:hover {
+  color: var(--juan-blue);
+  cursor: pointer;
+}
+
+#rightDemo {
+  background-color: #ba4270;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  position: relative;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+}
+
+#rightDemo:hover {
+  background-color:var(--charm-pink);
+  cursor: pointer;
+}
+
+#parent2 {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding: 50px 50px 0;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 0 auto;
+}
+
+#startBuilding {
+  width: 546px;
+  height: 345px;
+}
+
+#startBuilding > h1 {
+  font-size: 72px;
+  font-family: "DM Serif Display", serif;
+  position: relative;
+}
+
+#startBuilding > button,
+#startBuilding > p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+}
+
+#email {
+  border-radius: 10px;
+  width: 53%;
+  padding: 10px 20px;
+}
+
+#email {
+  max-width: 445px;
+  border-radius: 20px;
+}
+
+#email:hover {
+  cursor: pointer;
+}
+
+#leftDemo {
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--dark-pink);
+  color: white;
+  position: absolute;
+  right: 953px;
+  border-radius: 20px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+}
+
+#leftDemo:hover {
+  background-color: var(--charm-pink);
+  cursor: pointer;
+}
+
+#todaymillions {
+  max-width: 445px;
+  z-index: 60;
+}
+
+.parent3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 70px  50px; */
+  background-color: rgb(27, 38, 47);
+  color: white;
+  overflow: hidden;
+  position: relative;
+  padding: 70px;
+}
+
+.tesla {
+  display: grid;
+  grid-template-columns: repeat(3, 130px);
+  /* grid-template-rows: 50px 100px; */
+  gap: 50px;
+}
+
+.logos {
+  background-color: rgb(27, 38, 47);
+  color: white solid;
+}
+
+#h2Who {
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  width: 445px;
+}
+
+.todayP {
+  font-size: 24px;
+  margin-top: 10px;
+  font-family: "Public Sans", sans-serif;
+  max-width: 445px;
+}
+
+.aboutUs {
+  border-radius: 50px;
+  color: white;
+  padding: 20px 40px;
+  border: white solid;
+  background-color: transparent;
+}
+
+.aboutUs:hover {
+  color: #ee1616;
+  cursor: pointer;
+  background-color: white;
+}
+
+#circle2 {
+  position: absolute;
+  right: 1100px;
+  top: -320px;
+  z-index: -5px;
+}
+
+#parent4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.easy {
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+}
+
+#ourApi {
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+}
+
+#parent5 {
+  position: relative;
+  padding: 40px;
+}
+
+#parent5 > img {
+  position: absolute;
+  right: -380px;
+  top: -50px;
+  z-index: -1;
+}
+
+#parent5 > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#readinpbut {
+  position: relative;
+}
+
+#uiUX {
+  max-width: 445px;
+}
+
+.simple {
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+}
+
+.ourPre {
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+}
+
+#parent6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 100px 20px;
+}
+
+#parent6 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+
+#parent6 > div > div,
+#parent6 > div > div > p {
+  text-align: center;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+
+#readinpbut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#parent8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(27, 38, 47);
+  padding: 50px;
+}
+
+#Fdivdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.together2 > a {
+  color: var(--water-white);
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.together2 > a:hover {
+  color: var(--light-juan-blue);
+  cursor: pointer;
+}
+
+#p {
+  font-family: "DM Serif Display", serif;
+  max-width: 445px;
+  font-size: 15px;
+}
+
+#readinpbut {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: self-end;
+  margin-bottom: 60px;
+}
+
+#email1 {
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+#email1:hover {
+  cursor: pointer;
+}
+
+#rightDemo2 {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #ba4270;
+  color: white;
+  position: absolute;
+  right: px;
+}
+
+#rightDemo2:hover {
+  background-color: var(--charm-pink);
+  cursor: pointer;
+}
+
+#leftDemo2 {
+  border-radius: 20px;
+  background-color: #ba4270;
+  color: white;
+  padding: 7px;
+}
+
+#emailDemo2 {
+  display: flex;
+  position: relative;
+  justify-content: right;
+  align-items: center;
+  width: 300px;
+}
+
+#downPricing:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+#Fdive > a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.social >a> svg {
+  fill: var(--white);
+  margin-right: 15px;
+}
+
+.social >a> svg:hover {
+  fill: var(--dark-pink);
+  cursor: pointer;
+}
